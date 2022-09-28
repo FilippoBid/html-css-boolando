@@ -1,12 +1,75 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>boolando</title>
     <link rel="stylesheet" href="css/boolando.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <header>
+        <nav>
+            <!-- colore della nav -->
+            <div class="bkgn">
+                <!-- container con larghezza fissa 920px -->
+                <div class="container">
+                    <!-- contentore flex della nav bar  -->
+                    <div class="navbar">
+                        <div class="sectionlink">
+
+                           <a href=""><h1>Donna</h1></a> 
+                           <a href=""><h1>Uomo</h1></a> 
+                           <a href=""><h1>Bambino</h1></a> 
+
+                        </div>
+                        <img src="img/boolean-logo.png" alt="logo">
+                        <div class="sectionlink">
+                            <a href=""><i class="fa-regular fa-user"></i></a>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
     
+    </header>
+    <main>
+        <div class="container">
+            <!-- conteniore linea di img -->
+            <div class="img-row">
+                <!-- contenitore prodotto singolo -->
+                <div class="productbox">
+                    <div class="sale-img">
+
+                    </div>
+                    <!-- cuore in posizion absolute -->
+                    <i class="fa-regular fa-heart heart-like"></i>
+                    <img src="img/1.webp" alt="uomo">
+                    <!-- contentore testo marca e prezzo -->
+                    <div class="container-textimg">
+                        <h3>levis</h3>
+                        <h2>RELAZED FIT UNISEX</h2>
+                        <h3 class="price-txt">14$</h3>
+                        <h3 class="price-txt-sale">29$</h3>
+                    </div>
+                
+                </div>
+                <div class="productbox"><img src="img/2.webp" alt="donna"></div>
+                <div class="productbox"><img src="img/3.webp" alt="donna"></div>
+            </div>
+        </div>
+
+    </main>  
+    <footer>    
+
+    </footer>      
 </body>
 </html>
