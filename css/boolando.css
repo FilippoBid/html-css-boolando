@@ -7,7 +7,12 @@ a{text-decoration: none;color: white;height: 100%;}
 
 
 .container{width: 920px;margin: auto;}
-.bkgn{background-color: #ff6900;padding: 2rem;margin-bottom: 2rem;}
+.bkgn{background-color: #ff6900;padding: 2rem;margin-bottom: 2rem;width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+   
+    z-index: 5;}
 .navbar{display: flex;height: 1.5rem;justify-content: space-between;}
 .sectionlink{display: flex;gap: 0.5rem;align-items: center;}
 .img-row{display: flex;flex-grow: 1;row-gap: 1rem;width: 100%;gap: 1.5rem;margin-bottom: 3rem;}
@@ -26,9 +31,10 @@ a{text-decoration: none;color: white;height: 100%;}
 .footer-icon a{padding-right: 0.5rem;}
 .sale{background-color: rgb(216, 45, 45);}
 .eco{background-color: green;}
+.afternav{margin-top: 6rem;}
 
-/* nav{position: fixed;top:0;left:0;z-index: 4;margin: auto;} */
 
-.productbox:hover .under{display: border-box;} 
+
+.productbox:hover .hover-img{display: border-box;} 
 .productbox:hover .productbox img{display: none;}
-.under{position: absolute; top: 0;left:0;display:none;}
+.hover-img{width: 100%; position: absolute; top: 0;left:0;z-index: -1;}
