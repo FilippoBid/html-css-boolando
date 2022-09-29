@@ -20,8 +20,8 @@ a{text-decoration: none;color: white;height: 100%;}
 .productbox img{width: 100%;}
 .price-txt-sale{text-decoration:line-through;display: inline-block;}
 .price-txt{color: rgb(255, 0, 0);display: inline-block;padding-right: 1rem;}
-.heart-like{background-color: aquamarine;padding: 1rem;position: absolute;right: 0;top:1rem;z-index: 2;}
-.sale-img{display: flex; position: absolute;bottom:6rem ;left: 0; padding: 0.1rem;gap: 0.3rem;}
+.heart-like{background-color: aquamarine;padding: 1rem;position: absolute;right: 0;top:1rem;z-index: 4;}
+.sale-img{display: flex; position: absolute;bottom:6rem ;left: 0; padding: 0.1rem;gap: 0.3rem;z-index: 4;}
 .bkgn-footer{background-color: hsl(0deg 0% 10%);padding: 2rem;}
 .footer-txt {display:flex;flex-direction: column;}
 .footer-txt-link{display: flex;gap: 1rem;margin-top: 0.5rem;}
@@ -35,6 +35,6 @@ a{text-decoration: none;color: white;height: 100%;}
 
 
 
-.productbox:hover .hover-img{display: border-box;} 
+.productbox:hover .hover-img{z-index: 1;} 
 .productbox:hover .productbox img{display: none;}
 .hover-img{width: 100%; position: absolute; top: 0;left:0;z-index: -1;}
